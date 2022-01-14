@@ -8,8 +8,7 @@ $recenzja1 = $_POST['recenzja1'];
  
 
 
-$polaczenie = mssql_connect($host, $db_user, $db_password, $db_name);
-
+$polaczenie = mysqli_connect($host, $db_user, $db_password, $db_name);
 
 
 
