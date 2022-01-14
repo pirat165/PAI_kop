@@ -1,8 +1,9 @@
 <?php
 
-	$host = "localhost";
-	$db_user = "test";
-	$db_password = "";
-	$db_name = "Haircut";
+	
+	$host = "bookingstudent.mysql.database.azure.com";
+	$db_user = "pjarki@bookingstudent";
+	$db_password = "Pio123321#";
+	$db_name = "Books";
 
 ?>
