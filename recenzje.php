@@ -243,7 +243,6 @@ b3.onclick = function() {
 						echo($row[1]);
 						 
 					   
-							//Poprawić HR
 						 }
 				}
 					
