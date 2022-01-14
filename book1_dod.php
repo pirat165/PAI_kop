@@ -1,19 +1,6 @@
 
 <?php
 
-session_start();
-
-if ((!isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==false))
-	{
-		header('Location: recenzje.php');
-		exit();
-	}
-
-
-$id_osoby = $_SESSION['ID_os'];
-
-
-
 
  
 

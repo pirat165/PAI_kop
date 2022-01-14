@@ -1,6 +1,6 @@
 
 <?php
-
+/*
 session_start();
 
 if ((!isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==false))
@@ -12,6 +12,7 @@ if ((!isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==false))
 
 $id_osoby = $_SESSION['ID_os'];
 
+*/
 
 
  

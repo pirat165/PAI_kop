@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 require_once "connect.php";
 $id_osoby = $_SESSION['ID_os'];
 

@@ -1,21 +1,6 @@
 
 <?php
 
-session_start();
-
-if ((!isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==false))
-	{
-		header('Location: recenzje.php');
-		exit();
-	}
-
-
-$id_osoby = $_SESSION['ID_os'];
-
-
-
-
- 
 
 
 ?>
@@ -29,7 +14,7 @@ $id_osoby = $_SESSION['ID_os'];
 <head>
 <meta charset="UTF-8">
 			
-<title>Recenzja ksiazki 1</title>
+<title>Recenzja ksiazki 3</title>
 			
 <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="style/style.css">

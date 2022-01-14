@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once "connect.php";
-$id_osoby = $_SESSION['ID_os'];
+
 
 
 $recenzja1 = $_POST['recenzja1'];
@@ -23,7 +23,7 @@ try
 			{
 				throw new Exception(mysqli_connect_errno());
 			}
-			 else if ($polaczenie->query("INSERT INTO Books_opinions VALUES (NULL, $id_osoby, '1', '$recenzja1')") ) 
+			 else if ($polaczenie->query("INSERT INTO Books_opinions VALUES (NULL, '1', '1', '$recenzja1')") ) 
         
 					{
 						

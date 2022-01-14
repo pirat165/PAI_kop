@@ -1,18 +1,6 @@
 
 <?php
 
-session_start();
-
-
-$_SESSION['zalogowany'] = $_GET['zalogowany'];
-if ((!isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==false))
-	{
-		header('Location:index.php');
-		exit();
-	}
-
-
-$id_osoby = $_SESSION['ID_os'];
 
 
 
@@ -160,7 +148,7 @@ b1.onclick = function() {
 						echo($row[1]);
 						 
 					   
-							//Poprawić HR
+							
 						 }
 				}
 					
