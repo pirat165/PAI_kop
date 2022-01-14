@@ -41,6 +41,8 @@ if (confirm("Musisz się zalogować aby dodać recenzję")) {
 				<div class="main-menu">
 					<ul>
 						<li><a href="index.php">Start</a></li>
+						<li> <a href="recenzje.php">Opinie</a></li>
+						<li> <a href="opinie.php">Recenzje</a></li>
 						
 					
 					</ul>				
