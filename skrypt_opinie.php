@@ -1,7 +1,6 @@
 <?php
 
 require_once "connect.php";
-$id_osoby = $_SESSION['ID_os'];
 
 
 $recenzje = $_POST['recenzja'];
@@ -26,7 +25,7 @@ try
 			{
 				throw new Exception(mysqli_connect_errno());
 			}
-			 else if ($polaczenie->query("INSERT INTO Opinions VALUES (NULL, $id_osoby, '$tytuly', '$autory', $oceny, '$recenzje')") ) 
+			 else if ($polaczenie->query("INSERT INTO Opinions VALUES (NULL, '1', '$tytuly', '$autory', $oceny, '$recenzje')") ) 
         
 					{
 								echo("<script>
